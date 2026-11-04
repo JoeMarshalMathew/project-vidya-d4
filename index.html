@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Title and Description for Search Engines -->
+    <title>NiNi's Academy - Redirecting</title>
+    <meta name="robots" content="noindex, follow" />
 
+    <!-- Canonical URL: Explicitly tells Google that ninisacademy.au is the original source -->
+    <link rel="canonical" href="https://ninisacademy.au/" />
+
+    <!-- HTTP Meta Refresh Redirect -->
+    <meta http-equiv="refresh" content="0; url=https://ninisacademy.au/" />
+
+    <!-- JavaScript Fallback (Preserves sub-paths if a user lands on a deep link) -->
+    <script>
+      window.location.replace("https://ninisacademy.au" + window.location.pathname + window.location.search);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to <a href="https://ninisacademy.au/">ninisacademy.au</a>...</p>
+  </body>
+</html>
